@@ -2,9 +2,10 @@
   "name": "node_tutoring_app",
   "version": "1.0.0",
   "description": "A nodejs Application built while learning Nodejs with the Zuri Team",
-  "main": "index.js",
+  "main": "/src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "server": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
